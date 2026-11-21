@@ -5,9 +5,21 @@ Aplicación web sencilla para organizar pendientes diarios. Permite agregar tare
 ## Tecnologías utilizadas
 - HTML5
 - CSS3
-- JavaScript (ES6+)
+- TypeScript
+- Vite
 
 ## Cómo instalar y ejecutar
 1. Clona este repositorio en tu computadora:
    ```bash
    git clone [https://github.com/mjsb05/gestor-tareas-js.git](https://github.com/mjsb05/gestor-tareas-js.git)
+   cd gestor-tareas-js
+   ```
+2. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+3. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+4. Abre en tu navegador el enlace local que aparece en la terminal (normalmente `http://localhost:5173`).

@@ -1,0 +1,27 @@
+{
+  "name": "gestor_de_tareas",
+  "version": "1.0.0",
+  "description": "Aplicación web sencilla para organizar pendientes diarios. Permite agregar tareas nuevas, marcarlas como completadas, filtrarlas por estado (todas, pendientes o completadas) y mantenerlas guardadas en el navegador aunque se cierre o recargue la página.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build":"tsc && vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjsb05/gestor-tareas-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mjsb05/gestor-tareas-js/issues"
+  },
+  "homepage": "https://github.com/mjsb05/gestor-tareas-js#readme",
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8"
+  }
+}
